@@ -25,7 +25,7 @@ public class Receipt{
         System.out.println("****************************************");
         System.out.println(" I'm too lazy to actually put words     ");
         System.out.println("*here. So I will just type some random *"); 
-        System.out.println(" words here. Just ignore what I just    ");
+        System.out.println(" things here. Just ignore what I just   ");
         System.out.println("*wrote, I'm just making this look like *");
         System.out.println(" an actual receipt.                     ");
     }
