@@ -34,10 +34,10 @@ public class Receipt{
         if(apple<10&&1.49*apple<10){
         System.out.println(" Apple         "+apple+"      1.49      "+String.format("%.2f", 1.49*apple));
         }
-        else if(apple<10&&1.49*apple>10){
+        else if(apple<10&&1.49*apple>=10){
         System.out.println(" Apple         "+apple+"      1.49     "+String.format("%.2f", 1.49*apple));
         }
-        else if(apple>10){
+        else if(apple>=10){
         System.out.println(" Apple         "+apple+"     1.49     "+String.format("%.2f", 1.49*apple));
         }
         }   
