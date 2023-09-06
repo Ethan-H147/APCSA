@@ -30,22 +30,25 @@ public class Receipt{
         System.out.println(" an actual receipt.                     ");
         System.out.println("****************************************");
         if(apple != 0){
-        System.out.println(" Apple         "+apple+"      1.49      "+1.49*apple);
+        System.out.println(" Apple         "+apple+"      1.49      "+String.format("%.2f", 1.49*apple));
         }
         if(banana != 0){
-        System.out.println(" Banana        "+banana+"      1.19      "+1.19*banana);
+        System.out.println(" Banana        "+banana+"      1.19      "+String.format("%.2f", 1.19*banana));
         }
         if(pear != 0){
-        System.out.println(" Pear          "+pear+"      2.29      "+2.29*pear);
+        System.out.println(" Pear          "+pear+"      2.29      "+String.format("%.2f", 2.29*pear));
         }
         if(strawberry != 0){
-        System.out.println(" Strawberry    "+strawberry+"      3.59      "+3.59*strawberry);
+        System.out.println(" Strawberry    "+strawberry+"      3.59      "+String.format("%.2f", 3.59*strawberry));
         }
         if(watermelon != 0){
-        System.out.println(" Watermelon    "+watermelon+"      4.99      "+4.99*watermelon);
+        System.out.println(" Watermelon    "+watermelon+"      4.99      "+String.format("%.2f", 4.99*watermelon));
         }
         double total = 1.49*apple+1.19*banana+2.29*pear+3.59*strawberry+4.99*watermelon;
-        System.out.println("Tax            "+total*0.07);
+        System.out.println("              Tax     7.0%      "+String.format("%.2f", total*0.07));
+        total = total*1.07;
+        System.out.println("              Total             "+String.format("%.2f", total));
+        System.out.println("****************************************");
     }
 
 }
