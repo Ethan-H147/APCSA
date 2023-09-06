@@ -1,2 +1,2 @@
-# APCSA
+# Receipt
 2023 AP Computer Science A
