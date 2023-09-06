@@ -22,6 +22,7 @@ public class Receipt{
         strawberry = scan.nextInt();
         System.out.println("How many watermelons do you want?");
         watermelon = scan.nextInt();
+        System.out.println("           5400 Red Bank Rd             ");
         System.out.println("****************************************");
         System.out.println(" I'm too lazy to actually put words     ");
         System.out.println(" here. So I will just type some random  "); 
